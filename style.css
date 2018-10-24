@@ -1,0 +1,47 @@
+.body{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.field, .axis-y, .axis-x{
+    display: flex;
+    font-size: 13px;
+}
+
+.field{
+    flex-direction: row;
+}
+
+.axis-y{
+    width: 20px;
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+    border-right: 2px solid black;
+}
+
+.axis-x{
+    height: 20px;
+    margin-left: 18px;
+    padding-left: 1px;
+    flex-direction: row;
+    border-top: 2px solid black;
+}
+
+.value-y{
+    width: 18px;
+    height: 30px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.value-x{
+    width: 20px;
+    text-align: center;
+}
+
+.column{
+    width: 18px;
+    margin: 0 1px;
+}
